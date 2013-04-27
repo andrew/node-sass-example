@@ -1,0 +1,19 @@
+{
+  "name": "node-sass-example",
+  "version": "0.0.1",
+  "description": "example node-sass usage",
+  "main": "server.js",
+  "repository": "https://github.com/andrew/node-sass-example",
+  "keywords": [
+    "sass",
+    "scss",
+    "node-sass",
+    "example"
+  ],
+  "author": "Andrew Nesbitt",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "~0.4.3",
+    "connect": "~2.7.6"
+  }
+}
