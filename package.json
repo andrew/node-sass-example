@@ -13,7 +13,7 @@
   "author": "Andrew Nesbitt",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "git://github.com/andrew/node-sass.git",
+    "node-sass": "~0.4.4",
     "connect": "~2.7.6"
   },
   "engines": {
