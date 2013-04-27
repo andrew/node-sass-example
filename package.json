@@ -15,5 +15,9 @@
   "dependencies": {
     "node-sass": "~0.4.3",
     "connect": "~2.7.6"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
   }
 }
