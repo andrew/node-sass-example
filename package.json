@@ -13,7 +13,7 @@
   "author": "Andrew Nesbitt",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "0.6.7",
+    "node-sass": "~0.8.0",
     "connect": "~2.7.6"
   },
   "engines": {
