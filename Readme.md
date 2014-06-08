@@ -1,6 +1,6 @@
 # Node-Sass Example App
 
-Example app to show how to use [node-sass](https://github.com/andrew/node-sass) as a connect middleware.
+Example app to show how to use [node-sass](https://github.com/sass/node-sass) as a connect middleware.
 
 ## Setup
 
