@@ -9,7 +9,7 @@ Example app to show how to use [node-sass](https://github.com/sass/node-sass) as
     npm install
     node server.js
     open http://localhost:5000
-    
+
 ## Note on Patches/Pull Requests
 
  * Fork the project.
