@@ -1,12 +1,8 @@
 var connect = require('connect');
 var sass = require('node-sass');
-var path = require('path');
 
-var srcPath = path.join(__dirname, '/sass');
-var destPath = path.join(__dirname, '/public/styles');
-
-console.log(srcPath);
-console.log(destPath);
+var srcPath = __dirname + '/sass';
+var destPath = __dirname + '/public/styles';
 
 var server = connect.createServer(
     sass.middleware({
@@ -22,3 +18,5 @@ var server = connect.createServer(
 var port = process.env.PORT || 5000;
 server.listen(port);
 console.log('Server listening on port ' + port);
+console.log('srcPath is ' + srcPath);
+console.log('destPath is ' + destPath);
