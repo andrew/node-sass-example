@@ -1,13 +1,22 @@
-var connect = require('connect')
-  , sass = require('node-sass');
+var connect = require('connect');
+var sass = require('node-sass');
+var path = require('path');
+
+var srcPath = path.join(__dirname, '/sass');
+var destPath = path.join(__dirname, '/public/styles');
+
+console.log(srcPath);
+console.log(destPath);
 
 var server = connect.createServer(
-  sass.middleware({
-      src: __dirname
-    , dest: __dirname + '/public'
-    , debug: true
-  }),
-  connect.static(__dirname + '/public')
+    sass.middleware({
+        src: srcPath,
+        dest: destPath,
+        debug: true,
+        outputStyle: 'expanded',
+        prefix: '/styles'
+    }),
+    connect.static(__dirname + '/public')
 );
 
 var port = process.env.PORT || 5000;
