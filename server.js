@@ -1,11 +1,11 @@
 var connect = require('connect');
-var sass = require('node-sass');
+var sassMiddleware = require('node-sass-middleware');
 
 var srcPath = __dirname + '/sass';
 var destPath = __dirname + '/public/styles';
 
 var server = connect.createServer(
-    sass.middleware({
+    sassMiddleware({
         src: srcPath,
         dest: destPath,
         debug: true,

@@ -1,6 +1,6 @@
 {
   "name": "node-sass-example",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "example node-sass usage",
   "main": "server.js",
   "repository": "https://github.com/andrew/node-sass-example",
@@ -13,11 +13,10 @@
   "author": "Andrew Nesbitt",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "~0.9.3",
+    "node-sass-middleware": "^0.4.0",
     "connect": "~2.7.6"
   },
   "engines": {
-    "node": ">= 0.10.21",
-    "npm": "1.3.x"
+    "node": ">= 0.10.21"
   }
 }
