@@ -18,4 +18,4 @@ build
 vagrant
 .lock-wscript
 
-public/styles.css
+*.css
