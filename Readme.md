@@ -2,6 +2,8 @@
 
 Example app to show how to use [node-sass](https://github.com/sass/node-sass) as a connect middleware.
 
+[ ![Codeship Status for andrew/node-sass-example](https://codeship.com/projects/cfbcb0f0-4e78-0132-9932-123ac3d7c0ec/status)](https://codeship.com/projects/47708)
+
 ## Setup
 
     git clone git@github.com:andrew/node-sass-example.git
