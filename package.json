@@ -13,8 +13,9 @@
   "author": "Andrew Nesbitt",
   "license": "MIT",
   "dependencies": {
-    "node-sass-middleware": "0.4.0",
-    "connect": "2.7.9"
+    "connect": "^3.3.4",
+    "node-sass-middleware": "^0.4.0",
+    "serve-static": "^1.8.1"
   },
   "engines": {
     "node": ">= 0.10.21"
