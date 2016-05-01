@@ -23,4 +23,4 @@ Example app to show how to use [node-sass](https://github.com/sass/node-sass) as
 
 ## Copyright
 
-Copyright (c) 2013 Andrew Nesbitt. See LICENSE for details.
+Copyright (c) 2016 Andrew Nesbitt. See LICENSE for details.
