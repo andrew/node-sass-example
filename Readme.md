@@ -10,7 +10,7 @@ Example app to show how to use [node-sass](https://github.com/sass/node-sass) as
     cd node-sass-example
     npm install
     node server.js
-    open http://localhost:5000
+    open http://localhost:8000
 
 ## Note on Patches/Pull Requests
 
